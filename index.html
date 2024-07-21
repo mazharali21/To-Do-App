@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="glass"></div>
+    <div class="card">
+      <div class="todo_app">
+        <div class="title">
+          <h2>To-Do List</h2>
+          <img class="todo_icon" src="./assets/pencil.ico" alt="" />
+        </div>
+        <div class="row">
+          <input
+            class="task"
+            type="text"
+            id="inputbox"
+            placeholder="Add your Task"
+          />
+          <button id="btn" class="btn">Add</button>
+        </div>
+        <ul id="list" class="task_list"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
